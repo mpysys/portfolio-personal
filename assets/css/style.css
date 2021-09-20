@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+
+/* hero image  */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    
+    position: relative;
+}
+
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(/assets/images/Hero-image.png) no-repeat center center;
+    position: relative;
+    z-index: -1;
+}
