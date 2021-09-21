@@ -53,20 +53,21 @@ body {
     background-color: #DC7000 !important;;
 }
 
+/* section container  */
+
+section .container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 10px;
+    width: 100%;
+}
+
 /* about section  */
 
 #about {
     height: 300px;
 }
 
-
-section .container {
-    box-sizing: border-box;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 0 10px;
-    width: 100%;
-}
 
 .flex {
     align-items: center;
@@ -175,6 +176,56 @@ section .container {
 #about-text span {
     color: #4267B2;
     font-family: 'raleway-bold', sans-serif;
+}
+
+/* skills section  */
+
+#skills-container {
+    height: 450px;
+    width: 60%;
+    position: relative;
+}
+
+#inner-container {
+    border: 1px solid red;
+    height: 10%;
+    width: 100%;
+}
+
+#skill-name {
+    width: 10%;
+    height: 25px;
+    margin: 0 auto;
+    background-color: rgba(220, 112, 0, 1);
+    position: absolute;
+    text-align: left;
+    padding: 0 0 0 10px;
+    color: #fff;
+    font-family: 'raleway-bold', sans-serif;
+    font-weight: bold;
+    
+}
+
+#progress-bar-full {
+    width: 100%;
+    height: 25px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #C4C4C4; 
+}
+
+#progress-bar{
+    width: 100%;
+    height: 25px;
+    margin: 0 auto;
+    background-color: rgba(220, 112, 0, 0.4);
+    position: absolute;
+    text-align: right;
+    padding: 0 10px 0 0;
+    color: #fff;
+    font-family: 'raleway-bold', sans-serif;
+    font-weight: bold;
 }
 
 /* slide in effect  */
