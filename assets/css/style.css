@@ -26,6 +26,7 @@ body {
     margin: 0 auto;
     height: 100px;
     text-align:center;
+    font-family: 'raleway-bold' sans-serif !important;
 }
 
 #cover-text h2 span {
@@ -40,6 +41,8 @@ body {
     position: relative;
 }
 
+/* View my work button  */
+
 .btn-outline-secondary {
     color: #DC7000 !important;
     border-color:  #DC7000 !important;
@@ -48,4 +51,54 @@ body {
 .btn-outline-secondary:hover {
     color: #fff !important;
     background-color: #DC7000 !important;;
+}
+
+/* about section  */
+
+#about {
+    height: 300px;
+}
+
+
+section .container {
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    font-family: 'raleway-bold', sans-serif !important;
+    font-size: 30pt !important;
+    padding: 50px 0 0 0;
+    color: #DC7000;
+}
+
+.header-bar {
+    background: #DC7000;
+    height: 4px;
+    margin: 10px 0 30px 0;
+    width: 70px;
+}
+
+header 
+.waypoint 
+.animated 
+.slide-in-left
+
+
+/* @media screen  */
+
+@media screen and (min-width: 600px){
+    .header {
+    font-size: 30pt;
+    }
 }
