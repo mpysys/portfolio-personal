@@ -7,34 +7,39 @@
 }
 body {
     font-weight: 300;
-    color: #3a3a3a;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 
 /* hero image  */
 
 #hero-outer {
-    height: 600px;
+    height: 900px;
     width: 100%;
     overflow: hidden;
 }
 
 #cover-text {
     position: relative;
-    top: 200px;
-    left: 150px;
-    width: 100%;
+    top: 300px;
+    width: 50%;
     margin: 0 auto;
     height: 100px;
+    text-align:center;
 }
 
 #cover-text h2 span {
     color: #DC7000;
+    font-weight: bold;
 }
 
 #hero-image {
-    height: 600px;
+    height: 900px;
     width: 100%;
     background: url(/assets/images/Hero-image.png) no-repeat center center;
     position: relative;
+}
+
+.cover-button {
+
 }
