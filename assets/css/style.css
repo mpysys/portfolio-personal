@@ -40,6 +40,12 @@ body {
     position: relative;
 }
 
-.cover-button {
+.btn-outline-secondary {
+    color: #DC7000 !important;
+    border-color:  #DC7000 !important;
+}
 
+.btn-outline-secondary:hover {
+    color: #fff !important;
+    background-color: #DC7000 !important;;
 }
