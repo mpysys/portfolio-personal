@@ -109,6 +109,33 @@ section .container {
      animation-play-state: running;
 }
 
+.flex .row {
+    flex-direction: row;
+}
+
+#picture-about {
+    width: 33%;
+    margin: 0 auto;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-picture {
+    background: url("../images/Morgan.jpg") no-repeat center center;
+    background-size: contain;
+    height: 100%;
+    border-radius: 50%;
+}
+
 /* slide in effect  */
 @keyframes slide-in-left {
     from {
