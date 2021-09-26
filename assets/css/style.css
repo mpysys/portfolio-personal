@@ -317,6 +317,13 @@ section .container {
     font-weight: bold;
 }
 
+
+/* Portfolio section */
+
+.btn-primary {
+    border-color:  #DC7000 !important;
+}
+
 /* slide in effect  */
 @keyframes slide-in-left {
     from {
@@ -328,6 +335,8 @@ section .container {
         transform: translateX(0);
     }
 }
+
+ 
 
 /* @media screen  */
 
