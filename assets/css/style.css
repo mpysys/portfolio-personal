@@ -389,6 +389,39 @@ section .container {
     resize: none;
 }
 
+/* footer  */
+footer {
+    height: 275px;
+    background-color: black;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #fff;
+}
+
+footer .footnote {
+    color: #8f9aa7;
+    font-size: 10pt;
+    opacity: 0.6;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+footer .footnote .highlight {
+    color: #DC7000;
+    font-family: "Raleway", sans-serif;
+}
+
 /* slide in effect  */
 @keyframes slide-in-left {
     from {
