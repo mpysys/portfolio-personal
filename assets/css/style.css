@@ -322,7 +322,9 @@ section .container {
 
 .btn-primary {
     border-color:  #DC7000 !important;
+    background-color: #DC7000 !important;
 }
+
 
 
 
