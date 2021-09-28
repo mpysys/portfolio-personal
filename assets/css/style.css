@@ -37,7 +37,7 @@ body {
 #hero-image {
     height: 900px;
     width: 100%;
-    background: url(/assets/images/hero-image.png) no-repeat center center;
+    background: url(../images/hero-image.png) no-repeat center center;
     position: relative;
 }
 
@@ -436,10 +436,4 @@ footer .footnote .highlight {
 
  
 
-/* @media screen  */
-
-@media screen and (min-width: 600px){
-    .header {
-    font-size: 30pt;
-    }
-}
+/* Media queries  */
