@@ -325,6 +325,13 @@ section .container {
     background-color: #DC7000 !important;
 }
 
+.card-img-top {
+    height: 218px;
+    width: 100%;
+}
+
+
+
 /* Contact section  */
 
 #contact {
