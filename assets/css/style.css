@@ -37,7 +37,7 @@ body {
 #hero-image {
     height: 900px;
     width: 100%;
-    background: url(/assets/images/Hero-image.png) no-repeat center center;
+    background: url(/assets/images/hero-image.png) no-repeat center center;
     position: relative;
 }
 
@@ -146,7 +146,7 @@ section .container {
 }
 
 #circle-picture {
-    background: url("../images/Morgan.jpg") no-repeat center center;
+    background: url("../images/morgan.jpg") no-repeat center center;
     background-size: contain;
     height: 100%;
     border-radius: 50%;
