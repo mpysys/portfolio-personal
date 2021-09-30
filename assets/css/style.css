@@ -510,12 +510,17 @@ footer .footnote .highlight {
         margin: 0 auto;
     }
 
+    #portfolio {
+
+    }
 
     #skill-name {
         width: 25%;
         }
 
-    
+    #cover-text {
+        left: 0;
+    }
 }
 
 /* for smaller screens  */
@@ -533,9 +538,8 @@ footer .footnote .highlight {
     #contact { 
         width: 100%;
         margin: 0 auto;
-        float: left;
-        border: 1px solid red;
     }
+
     #skill-name {
         width: 25%;
         }
