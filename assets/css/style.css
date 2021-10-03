@@ -532,4 +532,8 @@ footer .footnote .highlight {
     .card-img-top {
         height: 275px;
     }
+
+    .navbar-nav {
+        float: right;
+    }
 }
