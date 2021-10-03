@@ -65,7 +65,7 @@ section .container {
 /* about section  */
 
 #about {
-    height: 300px;
+    min-height: 300px;
 }
 
 
@@ -468,5 +468,67 @@ footer .footnote .highlight {
     to {
         opacity: 1;
         transform: translateX(0);
+    }
+}
+
+
+/* Media queries  */
+
+/* For large screen sized from 1200px wide and down */
+
+
+/* for medium screen sized from 950px wide and down */
+
+
+/* for smaller screens  */
+@media screen and (max-width: 800px) {
+    #about-container {
+     flex-direction: column;
+     width: inherit;
+    }
+
+    #picture-container {
+        width: fit-content;
+    }
+
+    #about-text {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    #cover-text {
+        width: 100%;
+    }
+
+    #skills {
+        width: 100%;
+    }
+
+    #skills-container {
+        width: 100%;
+    }
+
+    .skill-name {
+        width: 75px;
+    }
+
+    .progress-bar3 {
+        width: 55%;
+    }
+
+    .progress-bar4 {
+        width: 40%;
+    }
+    #contact {
+        position: unset;
+        margin: auto;
+    }
+
+    .signup-form {
+        left: unset;
+    }
+
+    .card-img-top {
+        height: 275px;
     }
 }
