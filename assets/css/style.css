@@ -79,7 +79,6 @@ section .container {
 .header {
     font-family: 'raleway-bold', sans-serif !important;
     font-size: 30pt !important;
-    padding: 50px 0 0 0;
     color: #DC7000;
 
     /* animation effect  */
@@ -477,12 +476,42 @@ footer .footnote .highlight {
 
 /* For large screen sized from 1200px wide and down */
 
+@media screen and (max-width: 1200px) {
+    #about-container {
+        width: inherit;
+       }
+    
+    .card-img-top {
+        height: unset;
+    }
 
-/* for medium screen sized from 950px wide and down */
+    #skills-container {
+        width: 60%;
+    }
+}
+/* for medium screen sized from 800px wide and down */
 
+@media screen and (max-width: 800px) {
+    #about-container {
+        width: inherit;
+       }
+}
+    #skills-container {
+        width: inherit;
+    }
+
+    .card-img-top {
+        height: 150px;
+    }
+
+    .signup-form {
+        position: unset;
+        margin: auto;
+    }
 
 /* for smaller screens  */
-@media screen and (max-width: 800px) {
+
+@media screen and (max-width: 375px) {
     #about-container {
      flex-direction: column;
      width: inherit;
