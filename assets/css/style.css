@@ -492,11 +492,16 @@ footer .footnote .highlight {
     transform: translate(-50%, -50%);
     }   
 
+#thanks span {
+    color: #4267B2;
+    font-family: 'raleway-bold', sans-serif;
+}
+
 /* Media queries  */
 
 /* For large screen sized from 1200px wide and down */
 
-@media screen and (min-width: 900px) {
+@media screen and (max-width: 900px) {
     #about-container {
         width: inherit;
        }
@@ -511,7 +516,7 @@ footer .footnote .highlight {
 }
 /* for medium screen sized from 800px wide and down */
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 800px) {
     #about-container {
         width: inherit;
        }
@@ -531,7 +536,7 @@ footer .footnote .highlight {
 
 /* for smaller screens  */
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     #about-container {
      flex-direction: column;
      width: inherit;
