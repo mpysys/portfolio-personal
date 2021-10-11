@@ -5,9 +5,15 @@
     padding: 0;
     border: none;
 }
+
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-weight: 300;
     font-family: 'Raleway', sans-serif !important;
+    overflow-x: hidden;
 }
 
 
@@ -533,7 +539,7 @@ footer .footnote .highlight {
         position: unset;
         margin: auto;
     }
-
+}
 /* for smaller screens  */
 
 @media screen and (max-width: 375px) {
