@@ -507,7 +507,7 @@ footer .footnote .highlight {
        }
     
     .card-img-top {
-        height: 200px;
+        height: 100%;
     }
 
     #skills-container {
@@ -520,13 +520,13 @@ footer .footnote .highlight {
     #about-container {
         width: inherit;
        }
-}
+
     #skills-container {
         width: 100%;
     }
 
     .card-img-top {
-        height: 150px;
+        height: 100%;
     }
 
     .signup-form {
