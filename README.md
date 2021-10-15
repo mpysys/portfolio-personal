@@ -119,7 +119,7 @@ I opted in for a simple one page design split out into **three sections**:
 2. portfolio
 3. contact 
 
-#### Skeleton 
+#### Wireframe
 Wireframe mockups were created in [Figma Workspace](https://www.figma.com/file/VHuG0dpzANFPkke7BNgTX4/Portfolio_Draft) with the aim to be straightforward and modern in design:
 
 ![Home Page Wireframe](./assets/readme-files/website-screen.png)
@@ -174,7 +174,7 @@ I ran into various issues during the development of the website. Please find bel
 
 **Navbar Bug** - A bug was detected early on with the Navigation bar. In implementing a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recolored or to convert into a hamburger menu when on smaller screens. After doing various research on google, I found [Stack Overflow](https://stackoverflow.com/questions/21956741/mobile-bootstrap-navbar-not-working "Link to Stack Overflow solution") with a similar problem where they weren't able to collapse the menu. It was from here that the developer was able to troubleshoot the issue
 
-**About me image responsiveness** - A bug was detected when checking responsiveness the about me image and the text where the text would overlap onto the image. In order to stop this, 
+**About me image responsiveness** - A bug was detected when checking responsiveness the about me image and the text where the text would overlap onto the image. Especially with the various amounts of screen sizes available nowadays. In order to stop this, I started using more containers with values of "inheritence", enabling me to let width and height be dictated by the outer containers as screens get resized.
 
 **Skills** - Two issues in regards to building the skills sections as I wanted to do this on my own, without using Bootstrap:
 1. First issue was in regards to making each bar sit on it's own row as I was faced with them overlapping and unable to separate them through the box method. The solution came to me when I realized that the CSS was not unique to each container. When I then created unique classes/ID's for each part of the container, I was able to space each bar out as I wanted.
@@ -212,9 +212,16 @@ I ran into various issues during the development of the website. Please find bel
 
 ## Testing
 
+Industry standard Validator results:
+- [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmpysys.github.io%2Fportfolio-personal%2F "Link to W3C HTML Validator")
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmpysys.github.io%2Fportfolio-personal%2F%23&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en "Link to W3C CSS Validator")
+
 I have tested the website on the following browsers:
 - [Safari](./assets/readme-files/safari.png "Link to Safari Screenshot")
 - [Chrome](./assets/readme-files/chrome.png "Link to Chrome Screenshot")
+- [Opera](./assets/readme-files/opera.png "Link to Opera Screenshot")
+
+
 
 
 ## Deployment
