@@ -223,6 +223,9 @@ I have tested the website on the following browsers:
 - [Chrome](./assets/readme-files/chrome.png "Link to Chrome Screenshot")
 - [Opera](./assets/readme-files/opera.png "Link to Opera Screenshot")
 
+I have also run Lighthouse test, see below results:
+![Lighthouse performance results](./assets/readme-files/Lighthouse.png)
+
 
 
 
