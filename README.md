@@ -122,7 +122,7 @@ I opted in for a simple one page design split out into **three sections**:
 #### Skeleton 
 Wireframe mockups were created in [Figma Workspace](https://www.figma.com/file/VHuG0dpzANFPkke7BNgTX4/Portfolio_Draft) with the aim to be straightforward and modern in design:
 
-[Home Page Wireframe](./assets/readme-files/website-screen.png "Landing page")
+![Home Page Wireframe](./assets/readme-files/website-screen.png)
 
 ### Design
 
