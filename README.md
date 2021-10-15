@@ -227,8 +227,9 @@ I have also run Lighthouse test, see below results:
 ![Lighthouse performance results](./assets/readme-files/Lighthouse.png)
 
 ### BUGS
-A known bug for iPhone 12 ONLY, where the project containers seem to become absolute. I have not been able to reproduce or fix. I have checked various devices as well as [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fmpysys.github.io%2Fportfolio-personal%2F%23 "Link to responsinator result") and have not been able to reproduce other than when I use an iPhone 12. I have also updated my media queries to address this issue, but it does not change. See below screenshot:
-![BUG](./assets/readme-files/Bug.jpeg)
+A known bug for iPhone 12 ONLY, where the project containers seem to become absolute. I have not been able to reproduce or fix. I have checked various devices as well as [Responsinator](https://www.responsinator.com/?url=https%3A%2F%2Fmpysys.github.io%2Fportfolio-personal%2F%23 "Link to responsinator result") and have not been able to reproduce other than when I use an iPhone 12. I have also updated my media queries to address this issue, but it does not change. 
+
+[See bug here](./assets/readme-files/Bug.jpeg)
 
 
 
