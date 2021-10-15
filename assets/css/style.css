@@ -440,12 +440,6 @@ footer {
     height: 275px;
 }
 
-#footer-thanks {
-    position: fixed;
-    height: 275px;
-    bottom: 0;
-    width: 100%;
-}
 
 .social-networks {
     text-align: center;
@@ -501,6 +495,13 @@ footer .footnote .highlight {
 #thanks span {
     color: #DC7000;
     font-family: 'raleway-bold', sans-serif;
+}
+
+#footer-thanks {
+    position: fixed;
+    height: 275px;
+    bottom: 0;
+    width: 100%;
 }
 
 /* Media queries  */
@@ -559,6 +560,13 @@ footer .footnote .highlight {
     .progress-bar4 {
         width: 40%;
     }
+
+    #footer-thanks {
+        position: fixed;
+        height: 150px;
+        bottom: 0;
+        width: 100%;
+    }
 }
 /* for smaller screens  */
 
@@ -600,7 +608,7 @@ footer .footnote .highlight {
     .progress-bar4 {
         width: 40%;
     }
-    
+
     #contact {
         position: unset;
         margin: auto;
@@ -617,4 +625,6 @@ footer .footnote .highlight {
     .navbar-nav {
         float: right;
     }
+
+   
 }
