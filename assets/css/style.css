@@ -506,7 +506,28 @@ footer .footnote .highlight {
 /* Media queries  */
 
 /* For large screen sized from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    .skill-name {
+        width: 15%;
+    }
 
+    .signup-form {
+        position: unset;
+        margin: auto;
+    }
+
+    .progress-bar2 {
+        width: 70%;
+    }
+
+    .progress-bar3 {
+        width: 50%;
+    }
+
+    .progress-bar4 {
+        width: 30%;
+    }
+}
 @media screen and (max-width: 900px) {
     #about-container {
         width: inherit;
@@ -516,28 +537,27 @@ footer .footnote .highlight {
         height: 100%;
     }
 
+
     #skills-container {
         width: 60%;
-    }
-}
-/* for medium screen sized from 800px wide and down */
-
-@media screen and (max-width: 800px) {
-    #about-container {
-        width: inherit;
-       }
-
-    #skills-container {
-        width: 100%;
-    }
-
-    .card-img-top {
-        height: 100%;
     }
 
     .signup-form {
         position: unset;
         margin: auto;
+    }
+
+    .skill-name {
+        width: 17%;
+    }
+    .progress-bar2 {
+        width: 80%;
+    }
+    .progress-bar3 {
+        width: 60%;
+    }
+    .progress-bar4 {
+        width: 40%;
     }
 }
 /* for smaller screens  */
@@ -580,6 +600,7 @@ footer .footnote .highlight {
     .progress-bar4 {
         width: 40%;
     }
+    
     #contact {
         position: unset;
         margin: auto;
