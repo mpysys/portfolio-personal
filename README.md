@@ -124,7 +124,7 @@ Wireframe mockups were created in [Figma Workspace](https://www.figma.com/file/V
 
 - [Home Page Wireframe - View](./assets/readme-files/website-screen.png)
 - [Mobile Wireframe - View](./assets/readme-files/mobile.png)
-- [Contact Us Page Wireframe](./assets/readme-files/thank-you.png)
+- [Contact Us Thank You Page Wireframe - View](./assets/readme-files/thank-you.png)
 
 ### Design
 
