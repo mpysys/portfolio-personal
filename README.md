@@ -150,6 +150,7 @@ Features of the website are very basic as it features a consistent responsive na
 - The **Header** contains a conventionally placed **logo** in the top left of the page and **navigation bar**. The header is fixed. 
 - On smaller screens, the navigation bar collapses into a **toggler** icon whereby clicking it will reveal the navigation and social links.
 - The **Footer** contains the appropriate **social media icons**, linking users to the main social pages of Morgan Monnet. 
+- The **About**, **Skills** and **Portfolio** section all have a "slide-in-left" animation.
 
  
 ### Existing Features
