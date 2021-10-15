@@ -545,11 +545,6 @@ footer .footnote .highlight {
         width: 60%;
     }
 
-    .signup-form {
-        position: unset;
-        margin: auto;
-    }
-
     .skill-name {
         width: 17%;
     }
@@ -611,14 +606,6 @@ footer .footnote .highlight {
         width: 40%;
     }
 
-    #contact {
-        position: unset;
-        margin: auto;
-    }
-
-    .signup-form {
-        left: unset;
-    }
 
     .card-img-top {
         height: 100%;
