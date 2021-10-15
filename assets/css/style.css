@@ -529,6 +529,8 @@ footer .footnote .highlight {
         width: 30%;
     }
 }
+
+/* For large screen sized from 900px wide and down */
 @media screen and (max-width: 900px) {
     #about-container {
         width: inherit;
@@ -568,9 +570,9 @@ footer .footnote .highlight {
         width: 100%;
     }
 }
-/* for smaller screens  */
 
-@media screen and (max-width: 375px) {
+/* For large screen sized from 540px wide and down */
+@media screen and (max-width: 540px) {
     #about-container {
      flex-direction: column;
      width: inherit;
@@ -624,7 +626,5 @@ footer .footnote .highlight {
 
     .navbar-nav {
         float: right;
-    }
-
-   
+    }   
 }
