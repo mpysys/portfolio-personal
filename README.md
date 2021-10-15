@@ -252,7 +252,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 - The Template for wireframe AND hero image was thanks to this Figma template here on [Figma](https://www.figma.com/community/file/1019162390459683817)
 
 ### Code 
-I consulted multiple sites in order to better understand the code I was  trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
+I consulted multiple sites in order to better understand the code I was  trying to implement. The following sites were used on a more regular basis:
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
 - [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
