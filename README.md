@@ -213,8 +213,8 @@ I ran into various issues during the development of the website. Please find bel
 ## Testing
 
 Industry standard Validator results:
-- [W3C HTML Validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmpysys.github.io%2Fportfolio-personal%2F "Link to W3C HTML Validator")
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmpysys.github.io%2Fportfolio-personal%2F%23&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en "Link to W3C CSS Validator")
+- [W3C HTML Validator - Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmpysys.github.io%2Fportfolio-personal%2F "Link to W3C HTML Validator") -
+- [W3C CSS Validator - Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fmpysys.github.io%2Fportfolio-personal%2F%23&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en "Link to W3C CSS Validator")
 
 I have tested the website on the following browsers:
 - [Safari](./assets/readme-files/safari.png "Link to Safari Screenshot")
