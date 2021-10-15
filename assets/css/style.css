@@ -179,7 +179,7 @@ section .container {
 }
 
 #about-text span {
-    color: #4267B2;
+    color: #DC7000;
     font-family: 'raleway-bold', sans-serif;
 }
 
@@ -499,7 +499,7 @@ footer .footnote .highlight {
     }   
 
 #thanks span {
-    color: #4267B2;
+    color: #DC7000;
     font-family: 'raleway-bold', sans-serif;
 }
 
@@ -590,7 +590,7 @@ footer .footnote .highlight {
     }
 
     .card-img-top {
-        height: 275px;
+        height: 100%;
     }
 
     .navbar-nav {
